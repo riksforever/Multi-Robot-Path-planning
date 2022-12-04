@@ -1,0 +1,60 @@
+# MAE598: Multi-Robot Systems
+# Final Project: Multi-Robot Path Planning
+# Team members: Rikenkumar Patel, Darsh Shah, Devang Kakadiya
+# This code is the design of 16x16 map with obstacles for multi-robots.
+agents:
+-   goal: [6, 10]
+    name: agent0
+    start: [10, 2]
+-   goal: [13, 1]
+    name: agent1
+    start: [7, 3]
+-   goal: [6, 3]
+    name: agent2
+    start: [9, 5]
+-   goal: [0, 7]
+    name: agent3
+    start: [12, 0]
+-   goal: [4, 6]
+    name: agent4
+    start: [3, 1]
+-   goal: [5, 7]
+    name: agent5
+    start: [0, 12]
+map:
+    dimensions: [16, 16]
+    obstacles:
+    - !!python/tuple [3, 5]
+    - !!python/tuple [0, 3]
+    - !!python/tuple [3, 4]
+    - !!python/tuple [3, 6]
+    - !!python/tuple [6, 4]
+    - !!python/tuple [6, 7]
+    - !!python/tuple [7, 7]
+    - !!python/tuple [6, 2]
+    - !!python/tuple [5, 0]
+    - !!python/tuple [4, 5]
+    - !!python/tuple [0, 5]
+    - !!python/tuple [0, 2]
+    - !!python/tuple [8, 1]
+    - !!python/tuple [6, 11]
+    - !!python/tuple [13, 8]
+    - !!python/tuple [13, 7]
+    - !!python/tuple [4, 15]
+    - !!python/tuple [5, 13]
+    - !!python/tuple [13, 10]
+    - !!python/tuple [9, 11]
+    - !!python/tuple [9, 6]
+    - !!python/tuple [10, 8]
+    - !!python/tuple [11, 11]
+    - !!python/tuple [14, 13]
+    - !!python/tuple [4, 12]
+    - !!python/tuple [11, 9]
+    - !!python/tuple [13, 3]
+    - !!python/tuple [9, 13]
+    - !!python/tuple [14, 11]
+    - !!python/tuple [1, 14]
+    - !!python/tuple [10, 3]
+    - !!python/tuple [11, 4]
+
+dynamic_obstacles: {}

@@ -1,0 +1,21 @@
+# MAE598: Multi-Robot Systems
+# Final Project: Multi-Robot Path Planning
+# Team members: Rikenkumar Patel, Darsh Shah, Devang Kakadiya
+# This code is the design of 4x4 map with obstacles for multi-robots.
+agents:
+-   start: [0, 0]
+    goal: [2, 0]
+    name: agent0
+-   start: [2, 0]
+    goal: [0, 0]
+    name: agent1
+map:
+    dimensions: [4, 4]
+    obstacles:
+    - !!python/tuple [0, 1]
+    - !!python/tuple [2, 1]
+    - !!python/tuple [3, 1]
+    - !!python/tuple [3, 3]
+    - !!python/tuple [0, 3]
+
+dynamic_obstacles: {}
