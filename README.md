@@ -150,7 +150,7 @@ python decentralized.py -f velocity_obstacle/velocity_obstacle.gif -m velocity_o
 #### Results
 
 - Test 1: The robot tries to stay at (5, 5), while avoiding collisions with the dynamic obstacles
-- Test 2: The robot moves from (5, 0) to (5, 10), while avoiding obstacles
+- Test 2: The robot moves from (10, 5) to (0, 8), while avoiding obstacles
 
 | Test 1|Test 2|
 | :------------: | :------------: |
