@@ -105,7 +105,7 @@ python ../visualize.py input.yaml output.yaml
 |:------------------------------------:|:------------------------------------:|
 |![Success](./centralized/cbs/results/test_1.gif) | ![Failure](./centralized/cbs/results/test_2.gif)|
 
-|    Test 3 16x16 grid(fsuccess)      |        Test 4 32x32 grid(success)     |
+|    Test 3 16x16 grid(success)      |        Test 4 32x32 grid(success)     |
 |:-----------------------------------:|:-------------------------------------:|
 | ![Test 3](./centralized/cbs/results/test_3.gif) | ![Test 4](./centralized/cbs/results/test_4.gif)|
 
