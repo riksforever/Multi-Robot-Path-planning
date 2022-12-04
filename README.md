@@ -100,6 +100,12 @@ To visualize the generated results:
 ``` shell
 python ../visualize.py input.yaml output.yaml
 ```
+To record video
+
+``` 
+python visualize_cbs.py input.yaml output.yaml --video 'sipp.gif' --speed 1
+```
+
 
 |      Test 1 4x4 grid(success)        |        Test 2 8x8 grid(success)      |
 |:------------------------------------:|:------------------------------------:|
