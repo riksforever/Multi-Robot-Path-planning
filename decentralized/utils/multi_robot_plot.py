@@ -53,7 +53,7 @@ def plot_robot_and_obstacles(robot, obstacles, robot_radius, num_steps, sim_time
         blit=True, init_func=init)
 #    FFwriter = animation.FFMpegWriter(fps=30, extra_args=['-vcodec', 'libx264'])
 #    ani.save('ffmpeg', writer=FFwriter)
-    ani.save(filename, "ffmpeg", fps=30)
+    ani.save(filename, "ffmpeg", fps=60)
 
 
 def plot_robot(robot, timestep, radius=1, is_obstacle=False):
