@@ -1,0 +1,5 @@
+Please Install these libraries for Code.
+numpy: pip install numpy
+matplotlib: pip install matplotlib
+scipy: pip install scipy
+ffmpeg-python: pip install ffmpeg-python
