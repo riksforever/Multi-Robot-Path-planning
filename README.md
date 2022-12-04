@@ -70,11 +70,11 @@ python visualize_sipp.py input.yaml output.yaml --video 'sipp.gif' --speed 1
 
 |      Test 1 4x4 grid(fail)           |          Test 2 8x8 grid(fail)       |
 |:------------------------------------:|:------------------------------------:|
-|![Success](./centralized/sipp/results/test_1.gif) | ![Failure](./centralized/sipp/results/test_2.gif)|
+|![Success](./centralized/Sipp/results/test_1.gif) | ![Failure](./centralized/Sipp/results/test_2.gif)|
 
 |      Test 3 16x16 grid(fail)        |          Test 4 32x32 grid(fail)      |
 |:-----------------------------------:|:-------------------------------------:|
-| ![Test 3](./centralized/sipp/results/test_3.gif) | ![Test 4](./centralized/sipp/results/test_4.gif)|
+| ![Test 3](./centralized/Sipp/results/test_3.gif) | ![Test 4](./centralized/Sipp/results/test_4.gif)|
 
 #### Reference
 
