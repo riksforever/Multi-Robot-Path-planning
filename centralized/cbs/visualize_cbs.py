@@ -12,7 +12,7 @@ import matplotlib.animation as manimation
 import argparse
 import math
 
-Colors = ['orange', 'blue', 'green']
+Colors = ['green', 'blue', 'orange']
 
 
 class Animation:
