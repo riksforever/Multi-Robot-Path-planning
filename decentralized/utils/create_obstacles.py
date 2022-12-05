@@ -5,7 +5,7 @@ import numpy as np
 
 def create_obstacles(sim_time, num_timesteps):
     # Obstacle 1
-    v = 1.5
+    v = -1.5
     p0 = np.array([5, 12])
     obst = create_robot(p0, v, np.pi/2, sim_time,
                         num_timesteps).reshape(4, num_timesteps, 1)
