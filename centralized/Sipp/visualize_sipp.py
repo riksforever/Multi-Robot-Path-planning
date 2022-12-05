@@ -12,7 +12,7 @@ import matplotlib.animation as manimation
 import argparse
 import math
 
-Colors = ['orange', 'blue', 'green']
+Colors = ['green', 'blue', 'orange']
 
 
 class Animation:
@@ -41,10 +41,10 @@ class Animation:
     plt.ylim(ymin, ymax)
 
 
-    self.patches.append(Rectangle((xmin, ymin), xmax - xmin, ymax - ymin, facecolor='none', edgecolor='red'))
+    self.patches.append(Rectangle((xmin, ymin), xmax - xmin, ymax - ymin, facecolor='none', edgecolor='black'))
     for o in map["map"]["obstacles"]:
       x, y = o[0], o[1]
-      self.patches.append(Rectangle((x - 0.5, y - 0.5), 1, 1, facecolor='red', edgecolor='red'))
+      self.patches.append(Rectangle((x - 0.5, y - 0.5), 1, 1, facecolor='blue', edgecolor='blue'))
 
     # create agents:
     self.T = 0
